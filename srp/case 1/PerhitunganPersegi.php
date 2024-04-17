@@ -10,6 +10,6 @@ class PerhitunganPersegi {
         return $luas;
     }
 }
-$persegi = new Persegi(3);
+$persegi = new Persegi(11);
 $perhitungan = new PerhitunganPersegi();
 echo "Luas Persegi dengan sisi " . $persegi->getSisi() . " adalah " . $perhitungan->hitungLuas($persegi) . " satuan luas.";

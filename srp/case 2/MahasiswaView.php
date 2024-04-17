@@ -11,7 +11,7 @@ class MahasiswaView {
 }
 
 // Create a new Mahasiswa object
-$mhs = new Mahasiswa("2205018", "Agus");
+$mhs = new Mahasiswa("2205019", "Muhmmad Fikri Ar Ridho");
 
 // Create a new MahasiswaView object
 $view = new MahasiswaView();

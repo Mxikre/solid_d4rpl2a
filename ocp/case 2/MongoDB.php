@@ -1,9 +1,7 @@
 <?php
-
-include_once "DBMS.php";
-
-class MongoDB extends DBMS {
-    public function createConnection(): void {
+include_once "dbms.php";
+class MongoDB implements DBMS {
+    public function createConnection() {
         echo "Creating MongoDB connection...\n";
     }
 }

@@ -15,6 +15,7 @@ $saklarKipas = new Saklar($kipasAngin);
 
 // Mengaktifkan saklar untuk menyalakan dan mematikan barang elektronik
 $saklarLampu->berubah();
+echo "<br>";
 $saklarKipas->berubah();
 
 ?>

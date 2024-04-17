@@ -3,4 +3,3 @@ interface DBMS {
     public function createConnection();
 }
 ?>
-

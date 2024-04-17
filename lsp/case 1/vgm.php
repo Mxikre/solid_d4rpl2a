@@ -1,5 +1,5 @@
 <?php
-include_once "SocialMedia.php";
+include_once "sosmed.php";
 
 // Interface for managing video group
 interface VideoGroupManager extends SocialMedia{

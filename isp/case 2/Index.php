@@ -1,7 +1,7 @@
 <?php
-include_once "entrylevel.php";
-include_once "midrange.php";
-include_once "flagship.php";
+include_once "PrinterEntyLevel.php";
+include_once "PrinterMidRange.php";
+include_once "PrinterFlagship.php";
 
 echo "Printer Entry-Level <br>";
 $low = new PrinterEntryLevel();

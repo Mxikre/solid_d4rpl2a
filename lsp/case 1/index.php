@@ -1,9 +1,9 @@
 <?php
-include_once "SocialMedia.php";
-include_once "VidioGrupManager.php";
-include_once "PostMediaManager.php";
-include_once "WhatsApp.php";
-include_once "Instagram.php";
+include_once "sosmed.php";
+include_once "vgm.php";
+include_once "pmm.php";
+include_once "whatsapp.php";
+include_once "instagram.php";
 
 $whatsapp = new WhatsApp();
 $instagram = new Instagram();

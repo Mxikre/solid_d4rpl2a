@@ -1,8 +1,7 @@
 <?php
+include_once "vgm.php";
 
-include_once "VideoGroupManager.php";
-
-class WhatApp extends VideoGroupManager {
+class WhatsApp implements VideoGroupManager {
     public function chat() {
         echo "P <br>";
     }
@@ -14,8 +13,6 @@ class WhatApp extends VideoGroupManager {
     public function callGroupVideo() {
         echo "Berbunyi kecuali di silent <br>";
     }
-
-
 }
 
 ?>

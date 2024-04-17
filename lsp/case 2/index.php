@@ -1,6 +1,6 @@
 <?php
-include_once "Mobil.php";
-include_once "MobilListrik.php";
+include_once "mobil.php";
+include_once "mobilListrik.php";
 
 $mobilbbm = new Mobil();
 $mobillistrik = new MobilListrik();

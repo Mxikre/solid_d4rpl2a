@@ -1,11 +1,8 @@
 <?php
-
-include_once "DBMS.php";
-
-class MySQL extends DBMS {
-    public function createConnection(): void {
+include_once "dbms.php";
+class MySQL implements DBMS {
+    public function createConnection() {
         echo "Creating MySQL connection...\n";
     }
 }
-
 ?>

@@ -1,6 +1,6 @@
 <?php
-include_once "Persegi.php";
-include_once "Kubus.php";
+include_once "persegi.php";
+include_once "kubus.php";
 
 echo "Persegi <br>";
 $duadimensi = new Persegi2();
